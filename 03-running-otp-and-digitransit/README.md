@@ -5,7 +5,7 @@
 
 In this tutorial step, we combine the customized Digitransit from step 1 and the custom configured OpenTripPlanner from step 2.
 
-At first, we try again to run the tutorial step unchanged.
+At first, we run the tutorial step unchanged.
 
 digitransit-proxy publishes the digitransit UI under <domainname> and the OpenTripPlanner and map services using the subdomain api.<domainname>.
 
