@@ -7,7 +7,7 @@ In this tutorial step, we combine the customized Digitransit from step 1 and the
 
 At first, we run the tutorial step unchanged.
 
-digitransit-proxy publishes the digitransit UI under <domainname> and the OpenTripPlanner and map services using the subdomain api.<domainname>.
+Digitransit-proxy publishes the Digitransit UI under ```<domainname>``` and OpenTripPlanner and map services using the subdomain ```api.<domainname>```.
 
 Both domains should refer to the same IP adress. For development purposes, we add a mapping for api.localhost to the local dns config in /etc/hosts:
 
